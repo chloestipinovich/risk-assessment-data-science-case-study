@@ -21,3 +21,5 @@ env/
 
 # MacOS system files
 .DS_Store
+
+eda_notebook.txt
