@@ -17,10 +17,11 @@ env/
 *.xlsx
 *.pkl
 
+
 # Logs
 *.log
 
 # MacOS system files
 .DS_Store
 
-eda_notebook.txt
+*.txt
