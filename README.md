@@ -10,20 +10,20 @@ This repository contains the code and report for a risk-assessment project focus
 .
 ├── data
 │   ├── raw/                ← Original, confidential datasets (not shared)
-│   │   ├── file1.csv
-│   │   ├── file2.csv
-│   │   └── file3.csv
+│   │   ├── applications.csv
+│   │   ├── company_data.csv
+│   │   └── payment_performance.csv
 │   └── processed/          ← Cleaned/derived datasets (not shared)
-│       ├── df_app.csv
-│       ├── df_company.csv
-│       ├── df_payments.csv
-│       └── df_risk_metrics.csv
+│       ├── applications.pkl
+│       ├── company.pkl
+│       ├── merged.pkl
+│       └── payment.pkl 
 ├── notebooks
 │   ├── 1_data_processing.ipynb
 │   ├── 2_risk_profiling.ipynb
 │   └── 3_risk_assessment_strategy.ipynb
 ├── report
-│   └── Risk_Assessment_Report.pdf
+│   └── Risk_Assessment_Report.pdf  ← (not shared)
 ├── .gitignore
 ├── requirements.txt
 └── README.md
